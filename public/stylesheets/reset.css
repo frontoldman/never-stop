@@ -1,0 +1,84 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {	margin: 0;	padding: 0;	border: 0;	font-size: 100%;	font: inherit;	vertical-align: baseline;}/* HTML5 display-role reset for older browsers */article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {	display: block;}body {	line-height: 1;font:500 0.875em/1.8 Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;}ol, ul {	list-style: none;}blockquote, q {	quotes: none;}blockquote:before, blockquote:after,q:before, q:after {	content: '';	content: none;}table {	border-collapse: collapse;	border-spacing: 0;}
+
+h1.title{
+  font-size:1em;
+  text-align:center;
+  margin:10px;
+}
+h2.sub-title{
+  font-size:1em;
+  text-align:center;
+}
+h2.sub-title span.never{
+  margin-right:1em;
+}
+h2.sub-title em{
+  margin-right:1em;
+}
+h2.sub-title b{
+  margin-right:1em;
+}
+td.num-2{
+  color:#424938;
+}
+td.num-4{
+  color:#404c2f;
+}
+td.num-8{
+  color:#41512a;
+}
+td.num-16{
+  color:#455b25;
+}
+td.num-32{
+  color:#89bc6a;
+}
+td.num-64{
+  color:#9fd47e;
+}
+td.num-128{
+  color:#aeea8b;
+}
+td.num-256{
+  color:#adf680;
+}
+td.num-512{
+  color:#a3f96f;
+}
+td.num-1024{
+  color:#97fa5b;
+  font-szie:30px;
+}
+td.num-2048{
+  color:#ff0000;
+}
+#content{
+  margin:20px auto;
+  border-left:10px solid #8f7886;
+  border-top:10px solid #8f7886;
+}
+
+#content td{
+  width:100px;
+  height:100px;
+  background:#fff;
+  border-right:10px solid #8f7886;
+  border-bottom:10px solid #8f7886;
+  border-radius:5px;
+  text-align:center;
+  line-height:100px;
+  font-size:40px;
+}
+@media screen and (max-width:480px) and (min-width:320px){
+	#content{
+    border-left:5px solid #8f7886;
+    border-top:5px solid #8f7886;
+  }
+  #content td{
+    width:1.5em;
+    height:1.5em;
+    line-height:1.5em;
+    border-right:5px solid #8f7886;
+    border-bottom:5px solid #8f7886;
+  }
+}
